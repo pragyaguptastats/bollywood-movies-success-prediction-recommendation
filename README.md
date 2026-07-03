@@ -1,4 +1,4 @@
-# 🎬 Bollywood Movie Revenue Prediction & Recommendation System
+# Bollywood Movie Revenue Prediction & Recommendation System
 
 An end-to-end Machine Learning and Statistics project that predicts Bollywood movie revenue, performs comprehensive statistical analysis, explains model predictions, and recommends similar movies through an interactive Streamlit dashboard.
 
@@ -105,7 +105,7 @@ The dataset contains information such as:
 
 ---
 
-# 🧹 Data Preprocessing
+# Data Preprocessing
 
 The preprocessing stage includes:
 
