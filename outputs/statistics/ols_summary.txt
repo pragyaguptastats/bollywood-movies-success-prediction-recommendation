@@ -1,0 +1,43 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Revenue(INR)   R-squared:                       0.869
+Model:                            OLS   Adj. R-squared:                  0.868
+Method:                 Least Squares   F-statistic:                     655.7
+Date:                Fri, 03 Jul 2026   Prob (F-statistic):               0.00
+Time:                        18:45:26   Log-Likelihood:                -33433.
+No. Observations:                1696   AIC:                         6.690e+04
+Df Residuals:                    1678   BIC:                         6.700e+04
+Df Model:                          17                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const               3.721e+07   1.02e+07      3.642      0.000    1.72e+07    5.73e+07
+Movie_Name           298.3733   4415.668      0.068      0.946   -8362.425    8959.171
+Release_Period     -1.158e+07   4.51e+06     -2.569      0.010   -2.04e+07   -2.74e+06
+Whether_Remake     -1.036e+07   1.13e+07     -0.915      0.360   -3.26e+07    1.18e+07
+Whether_Franchise  -8.266e+07   1.08e+07     -7.648      0.000   -1.04e+08   -6.15e+07
+Genre              -1.013e+06   5.74e+05     -1.767      0.077   -2.14e+06    1.12e+05
+New_Actor           3.405e+06   5.37e+06      0.635      0.526   -7.12e+06    1.39e+07
+New_Director        -6.72e+06   4.72e+06     -1.424      0.155    -1.6e+07    2.53e+06
+New_Music_Director -1.331e+07   4.97e+06     -2.679      0.007   -2.31e+07   -3.56e+06
+Lead_Star           5.672e+05      3e+05      1.888      0.059    -2.2e+04    1.16e+06
+Director            -577.9072   7193.307     -0.080      0.936   -1.47e+04    1.35e+04
+Music_Director      4646.2609   1.18e+04      0.395      0.693   -1.85e+04    2.77e+04
+Number_of_Screens   1.897e+05   5465.711     34.714      0.000    1.79e+05       2e+05
+Budget(INR)            0.1465      0.006     25.575      0.000       0.135       0.158
+ROI                -3.852e+04   5.32e+04     -0.724      0.469   -1.43e+05    6.58e+04
+Revenue_per_screen     4.6412      1.878      2.472      0.014       0.958       8.324
+combined           -2.921e+05    1.5e+05     -1.950      0.051   -5.86e+05    1730.476
+Hit_Flop            1.487e+07   5.95e+06      2.500      0.013     3.2e+06    2.65e+07
+==============================================================================
+Omnibus:                     1186.042   Durbin-Watson:                   1.706
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            64807.740
+Skew:                           2.652   Prob(JB):                         0.00
+Kurtosis:                      32.815   Cond. No.                     3.65e+09
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.65e+09. This might indicate that there are
+strong multicollinearity or other numerical problems.

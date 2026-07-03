@@ -1,0 +1,4 @@
+Model,Purpose
+Linear Regression,Regression
+Random Forest,Regression
+Decision Tree,Classification
