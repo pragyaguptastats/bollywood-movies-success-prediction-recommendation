@@ -62,8 +62,6 @@ Bollywood-Movie-Revenue-Prediction-Recommendation-System
 │
 ├── notebooks/
 │
-├── reports/
-│
 ├── src/
 │   ├── preprocessing.py
 │   ├── feature_engineering.py
